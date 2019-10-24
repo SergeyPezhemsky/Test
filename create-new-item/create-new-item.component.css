@@ -1,0 +1,17 @@
+.Add-item {
+  display: flex;
+  padding-top: 100px;
+  padding-bottom: 10px;
+  flex-basis: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+.button1{
+  display: flex;
+}
+.dx-drop-down-box{
+}
+.text-box{
+  padding-right: 10px;
+}

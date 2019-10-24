@@ -1,0 +1,16 @@
+<div class="Add-item" [formGroup]="form">
+  <div  class="text-box" id="text-box">
+  <dx-text-box placeholder="Enter Task"
+               formControlName="message">
+  </dx-text-box>
+  </div>
+  <dx-select-box class="dx-drop-down-box"
+                 [items]="priorityValues"
+                 formControlName="priority" >
+  </dx-select-box>
+  <dx-button
+    class="button"
+    icon="plus"
+    (onClick)="click()">
+  </dx-button>
+</div>

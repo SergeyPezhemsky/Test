@@ -1,0 +1,16 @@
+<div class="filter-bar">
+  <div class="id">
+    <div class="print" *ngFor="let items of itemsSubject$$ | async">
+      <p>Id: {{items.id  }}</p>
+    </div>
+  </div>
+  <dx-check-box text="Completed"></dx-check-box>
+  <dx-check-box text="High"></dx-check-box>
+  <dx-check-box text="Medium"></dx-check-box>
+  <dx-check-box text="Low"></dx-check-box>
+  <dx-button
+  icon="check"
+  text="Date"
+  type="success">
+  </dx-button>
+</div>
